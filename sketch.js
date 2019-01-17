@@ -1,4 +1,4 @@
-let isRecording = true; //assign as true when you want to record
+let isRecording = false; //assign as true when you want to record
 let firstFrame = 1; //choose a starting point to record
 let lastFrame = 125; //choose an ending point to finish recording
 //Your Declarations Here:
@@ -11,7 +11,7 @@ function setup() {
 function draw() {
   background(80);
   //Your Animation Here:
-  exampleAnimation()
+  //exampleAnimation()
   //Keep "recordGIF() at the end of the draw function"
   recordGIF()
 }
