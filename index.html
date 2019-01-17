@@ -1,0 +1,28 @@
+<!DOCTYPE html><html><head>
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/CCapture.all.min.js"></script>
+    <script src="libraries/gif.worker.js"></script>
+    <script src="js/helpers.js"></script>
+
+    <script>
+
+    var capturer = new CCapture( {
+	     framerate: 60,
+       format: 'gif',
+       workersPath: './js/',
+       verbose: true
+    });
+
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+
+
+</body></html>
