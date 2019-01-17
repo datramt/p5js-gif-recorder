@@ -1,7 +1,7 @@
 let isRecording = false; //assign as true when you want to record
 let firstFrame = 1; //choose a starting point to record
 let lastFrame = 125; //choose an ending point to finish recording
-//Your Declarations Here:
+//Your Global Declarations Here:
 
 function setup() {
   canvasToRecord = createCanvas(500, 500).canvas;
